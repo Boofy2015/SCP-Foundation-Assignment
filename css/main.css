@@ -1,0 +1,254 @@
+/* Page Classes */
+html
+{
+    background-color: #3a2f2f;
+    color: #ffffff;
+}
+
+body 
+{
+    font-family: monospace, Century, Tahoma, sans-serif;
+}
+
+*
+{
+    margin: 0;
+}
+
+
+
+/* Navbar Classes */
+ul.navbar 
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b423d;
+    list-style-type: none;
+    border: solid 1px #ffffff;
+}
+
+
+ul.navbar li 
+{
+    float: left;
+}
+
+
+ul.navbar li a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 18px;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+
+ul.navbar li a:hover:not(.active) 
+{
+    background-color: #000000;
+}
+
+
+ul.navbar li a.active 
+{
+    background-color: #828282;
+}
+
+
+
+
+/* Image Classes */
+img 
+{
+    width:45%; 
+    max-width:100%;
+    height:auto; 
+    float: left;
+    display: block;
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+    border: solid #f0ffff; 
+}
+
+
+.squareImage img 
+{
+width: 30%;
+}
+
+
+/* Text Classes */
+p
+{
+    font-size: 14px;
+}
+
+
+h1 
+{
+    margin-bottom: 5px;  
+    font-size: 35px;
+}
+
+h2 
+{
+    margin-bottom: 5px; 
+    font-size: 25px;    
+}
+
+h3
+{
+    margin-bottom: 5px;   
+    font-size: 27px;
+}
+
+
+h4
+{
+    margin-bottom: 5px;  
+    font-size: 20px;      
+} 
+
+
+.reportext code
+{
+    color: #ffd2d2;
+    font-family: Courier, monospace, Century, Tahoma, sans-serif;
+}
+
+
+.reportext h3
+{
+    font-family: Courier, monospace, Century, Tahoma, sans-serif;
+}
+
+
+
+
+/* Content Classes (Size/Location) */
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%;}
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+
+[class*="col-"]
+{
+color: #ffffff; 
+padding: 10px;
+border: solid #565656;
+}
+
+
+.row
+{
+float: left;
+display: table;
+clear: both;
+content: "";
+}
+
+
+.left 
+{   
+    float: left;
+    overflow: auto;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    padding: 15px;
+}
+
+
+.right
+{   
+    float: right;
+    overflow: auto;
+    margin-right: 1%;
+    margin-bottom: 3%;
+    padding: 15px;
+}
+
+.center
+{
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 15px;
+}
+
+
+.center li
+{
+    padding: 15px;   
+    border: 1px solid;
+}
+
+
+
+/* Content Classes (Specified)*/
+.title
+{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+
+.container
+{
+    width: 95%;
+    margin: 0% 1% 3%;
+    padding: 15px;
+    border: solid #565656;
+}
+
+
+.containertitle
+{
+    margin: 1%;
+}
+
+
+.timeline
+{
+    width: 94%;
+    list-style-type: none;
+}
+
+
+.SCP-List li
+{
+    margin-top: 1%;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+
+ol.SCP-List
+{
+    padding-left: 20px;
+}
+
+
+.indexfiles li
+{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    list-style-type: none;
+}
+
+
+.indexfiles ul
+{
+    padding-left: 20px;
+}
